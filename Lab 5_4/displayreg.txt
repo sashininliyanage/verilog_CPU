@@ -1,0 +1,10 @@
+initial
+	begin
+		#5;
+		$display("\n\t\t\t___________________________________________________");
+		$display("\n\t\t\t CHANGE OF REGISTER CONTENT STARTING FROM TIME #5");
+		$display("\n\t\t\t___________________________________________________\n");
+		$display("\t\ttime\treg0\treg1\treg2\treg3\treg4\treg5\treg6\treg7");
+		$display("\t\t____________________________________________________________________");
+		$monitor($time, "\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d",registers[0],registers[1],registers[2],registers[3],registers[4],registers[5],registers[6],registers[7]);
+	end
